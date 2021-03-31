@@ -16,6 +16,10 @@ jobs:
       - name: checkout code
         uses: actions/checkout@v2
 
+      - name: get npm cache
+        id: npm-cache-dir-path
+        run: echo "::set-output name=dir::$(npm config get cache)"
+
       - name: set up cache
         uses: actions/cache@v1
         id: npm-cache
