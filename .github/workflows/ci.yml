@@ -54,11 +54,11 @@ jobs:
           HEROKU_API_KEY: ${{ secrets.HEROKU_TOKEN }}
 
       - name: push to heroku
-        run: heroku container:push -a ecommerce-server web
+        run: heroku container:push -a github-action-ecommerce-server web
         env:
           HEROKU_API_KEY: ${{ secrets.HEROKU_TOKEN }}
 
       - name: release the image
-        run: heroku container:release -a ecommerce-server web
+        run: heroku container:release -a github-action-ecommerce-server web
         env:
           HEROKU_API_KEY: ${{ secrets.HEROKU_TOKEN }}
