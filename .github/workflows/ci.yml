@@ -1,4 +1,4 @@
-name: Ecommerce-server CD
+name: Ecommerce-server CI/CD
 
 on:
   push:
@@ -8,7 +8,7 @@ jobs:
   build-node:
     runs-on: ubuntu-latest
 
-     - name: setup nodejs
+     - name: set up nodejs
         uses: actions/setup-node@v2
         with:
           node-version: '14'
@@ -16,7 +16,7 @@ jobs:
       - name: checkout code
         uses: actions/checkout@v2
 
-      - name: setup cache
+      - name: set up cache
         uses: actions/cache@v1
         id: npm-cache
         with:
