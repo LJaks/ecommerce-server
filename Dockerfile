@@ -8,6 +8,6 @@ RUN npm run build-ts
 FROM node:12-alpine3.10
 WORKDIR /app
 COPY --from=builder /app/dist ./dist
-COPY package*.json .
+COPY package*.json ./
 RUN npm install
 ENTRYPOINT [ "node", "dist/server.js" ]
