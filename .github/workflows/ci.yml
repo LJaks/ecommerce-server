@@ -1,4 +1,4 @@
-name: Ecommerce-server CI/CD
+name: ecommerce-server CI/CD
 
 on:
   push:
@@ -7,7 +7,7 @@ on:
 jobs:
   build-node:
     runs-on: ubuntu-latest
-
+    steps:
      - name: set up nodejs
         uses: actions/setup-node@v2
         with:
