@@ -1,0 +1,58 @@
+[
+  {
+    "name": "Cyberpunk",
+    "publishedYear": 2020,
+    "categories": ["Action", "Adventure", "RPG"],
+    "price": 60,
+    "rating": 4,
+    "imgUrl": "https://media.rawg.io/media/screenshots/73d/73db1d042b77430a7aeaf0726d36d6fb.jpg"
+  },
+  {
+    "name": "Gears 5",
+    "publishedYear": 2019,
+    "categories": ["Action", "Shooter"],
+    "price": 50,
+    "rating": 3.93,
+    "imgUrl": "https://media.rawg.io/media/games/121/1213f8b9b0a26307e672cf51f34882f8.jpg"
+  },
+  {
+    "name": "Batman: Arkham Knight",
+    "publishedYear": 2015,
+    "categories": ["Action"],
+    "price": 20,
+    "rating": 4.22,
+    "imgUrl": "https://media.rawg.io/media/games/310/3106b0e012271c5ffb16497b070be739.jpg"
+  },
+  {
+    "name": "Wolfenstein: The New Order",
+    "publishedYear": 2014,
+    "categories": ["Action", "Shooter"],
+    "price": 25,
+    "rating": 4.2,
+    "imgUrl": "https://media.rawg.io/media/games/c80/c80bcf321da44d69b18a06c04d942662.jpg"
+  },
+  {
+    "name": "DiRT Rally",
+    "publishedYear": 2014,
+    "categories": ["Racing", "Sports"],
+    "price": 20,
+    "rating": 3.74,
+    "imgUrl": "https://media.rawg.io/media/games/78d/78dfae12fb8c5b16cd78648553071e0a.jpg"
+  },
+  {
+    "name": "Dying Light",
+    "publishedYear": 2015,
+    "categories": ["Action", "RPG"],
+    "price": 11,
+    "rating": 4.1,
+    "imgUrl": "https://media.rawg.io/media/games/4a5/4a5ce21f529cf8fd4670b4c3188b25df.jpg"
+  },
+  {
+    "name": "Resident Evil Revelations",
+    "publishedYear": 2012,
+    "categories": ["Action", "Adventure"],
+    "price": 30,
+    "rating": 3.73,
+    "imgUrl": "https://media.rawg.io/media/games/89a/89ac2742fcfeba3b95ac94457af766ef.jpg"
+  }
+]
